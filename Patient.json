@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Kid1",
+    "Address": " 1 One Street",
+    "Phone Number": 111
+  },
+  {
+    "Name": "Kid2",
+    "Address": " 2 Two Street",
+    "Phone Number": 222
+  },
+  {
+    "Name": "Kid3",
+    "Address": " 3 Three Street",
+    "Phone Number": 333
+  }
+]

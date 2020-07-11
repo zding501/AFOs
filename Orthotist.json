@@ -1,0 +1,32 @@
+[
+  {
+    "Practice Name": "A",
+    "Address": " 1 Anaconda Street",
+    "Phone Number": " 0410******",
+    "Orthotist Name": " Jim"
+  },
+  {
+    "Practice Name": "B",
+    "Address": " 2 Brook Street",
+    "Phone Number": " 0420******",
+    "Orthotist Name": " Kim"
+  },
+  {
+    "Practice Name": "C",
+    "Address": " 3 Cabbage Avenue",
+    "Phone Number": " 0430******",
+    "Orthotist Name": " Leo"
+  },
+  {
+    "Practice Name": "D",
+    "Address": " 4 Democracy Line",
+    "Phone Number": " 0440******",
+    "Orthotist Name": " Neil"
+  },
+  {
+    "Practice Name": "E",
+    "Address": " 5 Eclipse Avenue",
+    "Phone Number": " 0450******",
+    "Orthotist Name": " Hero"
+  }
+]

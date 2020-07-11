@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Order</title>
+</head>
+<body>
+<h1>Welcome to the Order page!</h1>
+<p>Of course I can make it look nicer but I am just been lazy :-></p>
+<a href="/showOrder">Check All Orders</a>
+
+<form action="http://127.0.0.1:8081/addOrder" method="post">
+
+    <div class="form-group">
+        <label for="Date">Date</label>
+        <input class="form-control" name="Date" id="Date" type="date">
+    </div>
+
+    <div class="form-group">
+        <label for="Patient">Patient</label>
+        <input class="form-control" name="Patient" id="Patient">
+    </div>
+
+    <div class="form-group">
+        <label for="Foot">Foot</label>
+        <select name="Foot" id="Foot">
+            <option value="Left">Left</option>
+            <option value="Right">Right</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="Foot Length">Foot Length</label>
+        <input class="form-control" name="Foot Length" id="Foot Length" type="number">cm
+    </div>
+
+    <div class="form-group">
+        <label for="Foot Width">Foot Width</label>
+        <input class="form-control" name="Foot Width" id="Foot Width" type="number">cm
+    </div>
+
+    <div class="form-group">
+        <label for="Length Heel to Knee">Length Heel to Knee</label>
+        <input class="form-control" name="Length Heel to Knee" id="Length Heel to Knee" type="number">cm
+    </div>
+
+    <div class="form-group">
+        <label for="Description">Description</label>
+        <textarea name="Description" id="Description"></textarea>3000 characters
+    </div>
+
+    <div class="form-group">
+        <label for="Order Status">Order Status</label>
+        <select name="Order Status" id="Order Status">
+            <option value="New">New</option>
+            <option value="In Progress">In Progress</option>
+            <option value="Fulfilled">Fulfilled</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add</button>
+</form>
+</body>
+</html>
